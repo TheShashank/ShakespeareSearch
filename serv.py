@@ -51,6 +51,6 @@ def search():
     '''
 
 if os.environ.get('APP_LOCATION') == 'heroku':
-    run(host="0.0.0.0", port=int(os.environ.get("PORT", 8000)), server='paste')
+    run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), server='paste')
 else:
     run(host='localhost', port=8080, reloader=True)
