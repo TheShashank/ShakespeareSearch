@@ -12,7 +12,6 @@ def index(term):
     for occurence in soup.find_all('b'):
         number += 1
     number = number - 2
-    print number
     if number == 0:
         return " Don't be an idiot. Why would the dude use the word " + term + "?"
     else:
