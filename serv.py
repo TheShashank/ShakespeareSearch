@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 def index(term):
     googlepage = requests.get('https://www.google.co.in/search?q=%22'+ term + '%22+site:shakespeare.mit.edu')
     soup = BeautifulSoup(googlepage.text, 'html.parser')
-    print 'soup has been made'
     print soup.find_all('b')
     print soup.b
     number = 0
