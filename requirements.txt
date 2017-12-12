@@ -1,4 +1,4 @@
-bottle
-requests
+bottle==0.12.13
+requests==2.14.2
 beautifulsoup4
 

@@ -26,6 +26,9 @@ def hi():
 def search():
     return '''
     <html>
+        <title>
+        Shakespeare Said It!
+        </title>
         <body>
             <script>
                 function myFunction(){
@@ -50,8 +53,7 @@ def search():
         </body>
     </html>
     '''
-
 if os.environ.get('APP_LOCATION') == 'heroku':
     run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
 else:
-    run(host='localhost', port=8080, reloader=True)
+    run(host='localhost', port=8080, debug=True)
