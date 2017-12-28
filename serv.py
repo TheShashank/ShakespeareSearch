@@ -13,9 +13,9 @@ def index(term):
         number += 1
     number = number - 2
     if number == 0:
-        return " NOOO!!! Why would the dude use the word " + term + "?"
+        return " Sorry! The dude never used the term " + term 
     else:
-        return "The term " + term + " has been used by Shakespeare " 
+        return "The term " + term + " has been used by Shakespeare - you can use it in your Written Task!" 
     # + str(number) + " time(s) in his life (all works combined). So you can use it in your WT."
 
 @route('/hello')
