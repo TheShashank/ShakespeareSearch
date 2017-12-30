@@ -50,6 +50,8 @@ def search():
                 </p>
                 <iframe id="results" src="/search/bard">
             </div>
+
+            <a href="http://shashankr.me">See the rest of my website!</a>
         </body>
     </html>
     '''
