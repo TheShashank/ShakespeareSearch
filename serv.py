@@ -30,6 +30,7 @@ def search():
         Shakespeare Said It!
         </title>
         <body>
+            <a href="http://shashankr.me">See the rest of my website!</a>
             <script>
                 function myFunction(){
                     document.getElementById("p1").innerHTML = document.getElementById('search').value;
